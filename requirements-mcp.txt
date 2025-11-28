@@ -1,0 +1,13 @@
+# MCP Tools Server Requirements
+# Install with: pip install -r requirements-mcp.txt
+
+# HTTP client for web requests
+httpx>=0.24.0
+
+# Optional: For better HTML parsing in fetch_webpage
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Optional: For better web search (if using Google Custom Search API)
+# google-api-python-client>=2.100.0
+
